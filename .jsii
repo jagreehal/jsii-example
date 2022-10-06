@@ -1,0 +1,127 @@
+{
+  "author": {
+    "email": "jag@jagreehal.com",
+    "name": "Jag Reehal",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "Examale jsii library",
+  "docs": {
+    "stability": "experimental"
+  },
+  "homepage": "https://github.com/jagreehal/jsii-example",
+  "jsiiVersion": "1.69.0",
+  "keywords": [
+    "jsii",
+    "example"
+  ],
+  "license": "ISC",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "jsii-example",
+  "readme": {
+    "markdown": "# JSCII EXAMPLE\n\nThis is a simple example of how to use JSCII.\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagreehal/jsii-example.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "dotnet": {
+      "namespace": "jsii-example.namespace",
+      "packageId": "jsii-example.packageId"
+    },
+    "java": {
+      "maven": {
+        "artifactId": "jsii-example.artifactId",
+        "groupId": "jsii-example.groupId"
+      },
+      "package": "jsii-example.package"
+    },
+    "js": {
+      "npm": "jsii-example"
+    },
+    "python": {
+      "distName": "jsii-example.distName",
+      "module": "jsii-example.module"
+    }
+  },
+  "types": {
+    "jsii-example.HelloWorld": {
+      "assembly": "jsii-example",
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "jsii-example.HelloWorld",
+      "initializer": {
+        "docs": {
+          "stability": "experimental"
+        }
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/index.ts",
+        "line": 1
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "experimental"
+          },
+          "locationInModule": {
+            "filename": "src/index.ts",
+            "line": 6
+          },
+          "name": "fibonacci",
+          "parameters": [
+            {
+              "name": "num",
+              "type": {
+                "primitive": "number"
+              }
+            }
+          ],
+          "returns": {
+            "type": {
+              "primitive": "number"
+            }
+          }
+        },
+        {
+          "docs": {
+            "stability": "experimental"
+          },
+          "locationInModule": {
+            "filename": "src/index.ts",
+            "line": 2
+          },
+          "name": "sayHello",
+          "parameters": [
+            {
+              "name": "name",
+              "type": {
+                "primitive": "string"
+              }
+            }
+          ],
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "HelloWorld",
+      "symbolId": "src/index:HelloWorld"
+    }
+  },
+  "version": "1.0.0",
+  "fingerprint": "vIe+2uWsXATW9igAEc14jk38EGOhtCbhSievx+XWp1A="
+}

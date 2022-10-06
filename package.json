@@ -1,0 +1,56 @@
+{
+  "name": "jsii-example",
+  "version": "1.0.0",
+  "description": "Example jsii library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "jsii -vvv",
+    "build:watch": "jsii -w",
+    "package": "jsii-pacmak -vvv"
+  },
+  "homepage": "https://github.com/jagreehal/jsii-example",
+  "keywords": [
+    "jsii",
+    "example"
+  ],
+  "author": {
+    "name": "Jag Reehal",
+    "email": "jag@jagreehal.com"
+  },
+  "repository": {
+    "url": "https://github.com/jagreehal/jsii-example.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jsii": "^1.69.0",
+    "jsii-pacmak": "^1.69.0",
+    "jsii-release": "^0.2.489"
+  },
+  "stability": "experimental",
+  "types": "src/index.d.ts",
+  "jsii": {
+    "outdir": "dist",
+    "versionFormat": "short",
+    "targets": {
+      "java": {
+        "package": "jsii-example.package",
+        "maven": {
+          "groupId": "jsii-example.groupId",
+          "artifactId": "jsii-example.artifactId"
+        }
+      },
+      "python": {
+        "distName": "jsii-example.distName",
+        "module": "jsii-example.module"
+      },
+      "dotnet": {
+        "namespace": "jsii-example.namespace",
+        "packageId": "jsii-example.packageId"
+      }
+    }
+  },
+  "tsc": {
+    "outDir": "dist",
+    "rootDir": "src"
+  }
+}
